@@ -13,9 +13,26 @@ Use this software on Windows OS  [Download](https://github.com/naemazam/SubNet-C
 
 ## Installing for Linux 
 
+At first install Wine for running .exe file on linux 
+
 ```bash
-pip install foobar
+sudo apt-get install wine32 -y && sudo apt-get install libwine -y
+
 ```
+Download file from [GitHub](https://github.com/naemazam/SubNet-Calculator.git)
+ 
+```bash
+git clone https://github.com/naemazam/SubNet-Calculator.git
+
+```
+
+```bash
+cd SubNet-Calculator/
+
+wine  subnet calculator.exe
+
+```
+
 
 ## Usage
 
