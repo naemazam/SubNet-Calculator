@@ -1,7 +1,9 @@
-[![MasterHead](img/Subnet3.png)]()
+
 # Subnet calculator 
 
 A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting. Computers that belong to the same subnet are addressed with an identical most-significant bit-group in their IP
+
+[![MasterHead](img/subnet3.PNG)]()
 
 ## Installation For Windows OS
 
@@ -17,12 +19,17 @@ pip install foobar
 
 ## Usage
 
-1. Provide [IP address](https://pip.pypa.io/en/stable/) (ip4) and [CIDR](https://pip.pypa.io/en/stable/) Value on the box. 
+1. Provide [IP address](https://naemazam.github.io/post%20page/subnetpostpage.html) (ip4) and [CIDR](https://naemazam.github.io/post%20page/classfullvscidr.html) Value on the box. 
+![alt text](img/subnet2.PNG)
 
 2. click press calculate 
 
+![alt text](img/subnet3.PNG)
+
+
 3. click reset to clear all values. 
 
+![alt text](img/subnet1.PNG)
 
 
 ## Contributing
