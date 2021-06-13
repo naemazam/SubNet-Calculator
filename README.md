@@ -7,7 +7,7 @@ A subnetwork or subnet is a logical subdivision of an IP network. The practice o
 
 ## Installation For Windows OS
 
-Use this software on Windows OS  [Download](https://pip.pypa.io/en/stable/) and Execute RAR file.
+Use this software on Windows OS  [Download](https://github.com/naemazam/SubNet-Calculator/archive/refs/heads/main.zip) and Execute RAR file.
 
 
 
