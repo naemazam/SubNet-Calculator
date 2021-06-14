@@ -19,7 +19,7 @@ At first install Wine for running .exe file on linux
 sudo apt-get install wine32 -y && sudo apt-get install libwine -y
 
 ```
-Download file from [GitHub](https://github.com/naemazam/SubNet-Calculator.git)
+Download file from [GitHub](https://github.com/naemazam/SubNet-Calculator.git) or Open terminal and follow 
  
 ```bash
 git clone https://github.com/naemazam/SubNet-Calculator.git
