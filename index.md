@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/naemazam/SubNet-Calculator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Subnet calculator 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting. Computers that belong to the same subnet are addressed with an identical most-significant bit-group in their IP
 
-### Markdown
+[![MasterHead](img/subnet3.PNG)]()
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation For Windows OS
 
-```markdown
-Syntax highlighted code block
+Use this software on Windows OS  [Download](https://github.com/naemazam/SubNet-Calculator/archive/refs/heads/main.zip) and Execute RAR file.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Installing for Linux 
 
-**Bold** and _Italic_ and `Code` text
+At first install Wine for running .exe file on linux 
 
-[Link](url) and ![Image](src)
+```bash
+sudo apt-get install wine32 -y && sudo apt-get install libwine -y
+
+```
+Download file from [GitHub](https://github.com/naemazam/SubNet-Calculator.git) or Open terminal and follow 
+ 
+```bash
+git clone https://github.com/naemazam/SubNet-Calculator.git
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```bash
+cd SubNet-Calculator/
 
-### Jekyll Themes
+wine  subnet calculator.exe
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/naemazam/SubNet-Calculator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Usage
+
+1. Provide [IP address](https://naemazam.github.io/post%20page/subnetpostpage.html) (ip4) and [CIDR](https://naemazam.github.io/post%20page/classfullvscidr.html) Value on the box. 
+![alt text](img/subnet2.PNG)
+
+2. click press calculate 
+
+![alt text](img/subnet3.PNG)
+
+
+3. click reset to clear all values. 
+
+![alt text](img/subnet1.PNG)
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
